@@ -1,0 +1,17 @@
+python run_active_learn.py \
+--data_file data/citeseer.npz \
+--seed 1234 \
+--batch_size 1 \
+--learning_rate 1e-2 \
+--n_queries 40 \
+--debug no \
+--active_train_epoch 50 \
+--policy meta \
+--query_strategy eps_greedy \
+--meta_iter 4 \
+--mc_iter 200 \
+--mc_dropout yes \
+--dropout_p 0.1 \
+--n_train_per_class 2 \
+--n_experiments 2 \
+--save_logs
