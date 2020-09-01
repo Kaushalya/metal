@@ -34,7 +34,7 @@ along columns of the csv file.
 
 ## Visualization of results
 The Jupyter notebook `notebooks/analysis/performance_summary.ipynb` is used to
-load results CSV files and plot how performance (accuracy and macro-f1) varies
+load results CSV files and to plot how the performance (accuracy and macro-f1) varies
 with acquisition of labels of the unlabeled nodes.
 
 ## Cite
