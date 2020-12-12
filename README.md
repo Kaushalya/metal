@@ -1,6 +1,6 @@
 # Active Graph Learning
 
-**Pytorch** implementation of the paper ["MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning"](https://arxiv.org/abs/2007.11230) (2020)
+**Pytorch** implementation of the paper ["MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning"](http://proceedings.mlr.press/v129/madhawa20a.html) (2020)
 
 ## Dependencies
 1. python 3.6+
@@ -40,10 +40,17 @@ with acquisition of labels of the unlabeled nodes.
 ## Cite
 Please cite our paper if you use this code in your own work:
 ```
-@article{madhawa2020metal,
-  title={MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning},
-  author={Madhawa, Kaushalya and Murata, Tsuyoshi},
-  journal={arXiv preprint arXiv:2007.11230},
-  year={2020}
-}
+ @InProceedings{madhawa20metal,
+title = {{M}et{A}{L}: {A}ctive {S}emi-{S}upervised {L}earning on {G}raphs via {M}eta-{L}earning},
+author = {Madhawa, Kaushalya and Murata, Tsuyoshi}, 
+booktitle = {Proceedings of The 12th Asian Conference on Machine Learning}, 
+pages = {561--576}, 
+year = {2020}, 
+editor = {Sinno Jialin Pan and Masashi Sugiyama}, 
+volume = {129}, 
+series = {Proceedings of Machine Learning Research}, 
+address = {Bangkok, Thailand}, month = {18--20 Nov}, 
+publisher = {PMLR}, 
+pdf = {http://proceedings.mlr.press/v129/madhawa20a/madhawa20a.pdf}, 
+url = {http://proceedings.mlr.press/v129/madhawa20a.html}} 
 ```
